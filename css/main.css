@@ -1,0 +1,184 @@
+html { 
+  background: url('../img/bg.jpg') no-repeat top center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.bodycontainer {
+	background-color:rgba(255,255,255,0.55);
+	margin-top:0px;
+	padding-top:0px;
+	padding-bottom:5px;
+	border-bottom-left-radius:2em;
+	border-bottom-right-radius:2em;
+
+}
+
+a:link, a:visited {
+	color: #174674;
+}
+a:active {
+	color: #174674;
+}
+a:hover {
+	color:#ffffff;
+	background-color:#174674;
+}
+
+#logo_holder {
+	text-align:right;
+}
+
+
+/* navbar */
+.navbar-custom {
+    /*background-color: #174674;*/
+    /* Firefox v3.6+ */
+background-image:-moz-linear-gradient(14% 41% 0deg,rgba(23,70,116,0.1) 0%,rgb(23,70,116) 100%); 
+/* safari v4.0+ and by Chrome v3.0+ */
+background-image:-webkit-gradient(linear,14% 41%,99% 41%,color-stop(0, rgba(23,70,116,0.1)),color-stop(1, rgb(23,70,116)));
+/* Chrome v10.0+ and by safari nightly build*/
+background-image:-webkit-linear-gradient(0deg,rgba(23,70,116,0.1) 0%,rgb(23,70,116) 100%);
+/* Opera v11.10+ */
+background-image:-o-linear-gradient(0deg,rgba(23,70,116,0.1) 0%,rgb(23,70,116) 100%);
+/* IE v10+ */
+background-image:-ms-linear-gradient(0deg,rgba(23,70,116,0.1) 0%,rgb(23,70,116) 100%);
+background-image:linear-gradient(90deg,rgba(23,70,116,0.1) 0%,rgb(23,70,116) 100%);
+-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#19174674,endColorstr=#ff174674,GradientType=1)";
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#19174674,endColorstr=#ff174674,GradientType=1);
+
+}
+/* title */
+.navbar-custom .navbar-brand {
+    color: #ffffff;
+}
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus {
+    color: #dddddd;
+}
+/* link */
+.navbar-custom .navbar-nav > li > a {
+    color: #ffffff;
+}
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus {
+    color: #174674;
+    background-color:#ffffff;
+}
+.navbar-custom .navbar-nav > .active > a, 
+.navbar-custom .navbar-nav > .active > a:hover, 
+.navbar-custom .navbar-nav > .active > a:focus {
+    color: #174674;
+    background-color: #cccccc;
+}
+.navbar-custom .navbar-nav > .open > a, 
+.navbar-custom .navbar-nav > .open > a:hover, 
+.navbar-custom .navbar-nav > .open > a:focus {
+    color: #174674;
+    background-color: #cccccc;
+}
+/* caret */
+.navbar-custom .navbar-nav > .dropdown > a .caret {
+    border-top-color: #777;
+    border-bottom-color: #777;
+}
+.navbar-custom .navbar-nav > .dropdown > a:hover .caret,
+.navbar-custom .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color: #333;
+    border-bottom-color: #333;
+}
+.navbar-custom .navbar-nav > .open > a .caret, 
+.navbar-custom .navbar-nav > .open > a:hover .caret, 
+.navbar-custom .navbar-nav > .open > a:focus .caret {
+    border-top-color: #555;
+    border-bottom-color: #555;
+}
+/* mobile version */
+.navbar-custom .navbar-toggle {
+    border-color: #DDD;
+}
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+    background-color: #DDD;
+}
+.navbar-custom .navbar-toggle .icon-bar {
+    background-color: #CCC;
+}
+@media (max-width: 767px) {
+    .navbar-custom .navbar-nav .open .dropdown-menu > li > a {
+        color: #777;
+    }
+    .navbar-custom .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-custom .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #333;
+    }
+}
+
+.footer {
+	color:#174674;
+	font-size:12px;
+	font-weight:bold;
+	text-align:center;
+	padding:10px;
+	padding-top:20px;
+}
+
+
+
+.status_holder {
+		margin:0px;
+		margin-bottom:5px;
+		padding:10px;
+		border:1px solid #174674;
+		background-color:#bbbbbb;
+		clear:both;
+		overflow:hidden;
+	}
+	
+	.profile_thumb {
+		float:left;
+		padding:0px 10px 0px 0px;
+	}
+	
+	.profile_holder {
+		clear:both;
+		overflow:hidden;
+	}
+	
+	.profile_fullsize {
+		width:300px;
+		float:left;
+		padding:20px 20px 20px 0px;
+	}
+	
+	h3.member_name {
+		margin:0px;
+	}
+	
+	
+	.profile_details {
+		float:left;
+		padding-left:20px;
+	}
+	
+	.status_mod {
+		background-color:#ddddff;
+	}
+	.status_message {
+		font-size:15px;
+		font-weight:normal;
+		color:#000066;
+	}
+	.status_author {
+		padding-top:5px;
+		font-size:12px;
+		font-style:italic;
+	}
+	
+	
+	textarea.status {
+		width:100%;
+		height:50px;
+	}

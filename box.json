@@ -1,0 +1,11 @@
+{
+    "dependencies":{
+        "testbox":"2.2.0"
+    },
+    "installPaths":{
+        "testbox":"testbox"
+    },
+    "testbox":{
+        "runner":"http://www.testableapi.local.com:8504/tests/runner.cfm"
+    }
+}
